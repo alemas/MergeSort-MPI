@@ -1,0 +1,5 @@
+BUILD:
+make mergeSort
+
+RUN:
+mpirun -np <number of processes> ./mergeSortMPI <list size>
